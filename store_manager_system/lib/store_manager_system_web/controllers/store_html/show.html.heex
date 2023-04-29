@@ -1,0 +1,19 @@
+<.header>
+  Store <%= @store.id %>
+  <:subtitle>This is a store record from your database.</:subtitle>
+  <:actions>
+    <.link href={~p"/stores/#{@store}/edit"}>
+      <.button>Edit store</.button>
+    </.link>
+  </:actions>
+</.header>
+
+<.list>
+  <:item title="Street"><%= @store.street %></:item>
+  <:item title="City"><%= @store.city %></:item>
+  <:item title="State"><%= @store.state %></:item>
+  <:item title="Zipcod"><%= @store.zipcod %></:item>
+  <:item title="Storenumber"><%= @store.storeNumber %></:item>
+</.list>
+
+<.back navigate={~p"/stores"}>Back to stores</.back>
