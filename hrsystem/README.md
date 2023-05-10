@@ -7,6 +7,6 @@ To start your Phoenix server:
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-Visit [`localhost:4000`](http://localhost:4000/employees) to see list of employees.
+Visit [`localhost:4000/employees`](http://localhost:4000/employees) to see list of employees.
 
-Visit [`localhost:4000`](http://localhost:4000/api/employees) to json api to see list of employees.
+Visit [`localhost:4000/api/employees`](http://localhost:4000/api/employees) to json api to see list of employees.
