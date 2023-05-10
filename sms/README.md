@@ -12,3 +12,5 @@ Visit [`localhost:3000/products`](http://localhost:3000/products) to see list of
 Visit [`localhost:3000/stores`](http://localhost:3000/stores) to see list of stores.
 
 Visit [`localhost:3000/employees`](http://localhost:3000/employees) to see list of employees from HR System API (HR project must be running at the same time)
+
+Was able to implement auth. for users to create an account - username: "joannalopez@nevada.unr.edu" password: "passwordpassword".
